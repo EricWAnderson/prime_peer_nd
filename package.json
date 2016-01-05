@@ -1,0 +1,15 @@
+{
+  "name": "prime_peer_nd",
+  "version": "1.0.0",
+  "description": "prime peer programming intro to Node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Eric Anderson, Amber Joy",
+  "license": "ISC"
+}
