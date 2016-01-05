@@ -4,7 +4,6 @@ var accountBalance = require('./accountBalance.js');
 
 http.createServer(function(request, response){
     response.writeHead(200);
-    response.write('is this working');
     response.write(accountBalance.balance());
     response.end();
 }).listen(3000);
